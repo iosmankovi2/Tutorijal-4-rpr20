@@ -32,4 +32,9 @@ public class Banka {
         uposleni.add(u);
         return u;
     }
+
+
+    public void kreirajRacunZaKorisnika(Korisnik k) {
+
+    }
 }
