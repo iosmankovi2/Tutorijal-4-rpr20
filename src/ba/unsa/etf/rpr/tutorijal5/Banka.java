@@ -35,6 +35,8 @@ public class Banka {
 
 
     public void kreirajRacunZaKorisnika(Korisnik k) {
-
+        k = new Korisnik(k.getIme(), k.getPrezime());
+       Racun r = new Racun(brojRacuna, k);
+        k.dodajRacun(r);
     }
 }
